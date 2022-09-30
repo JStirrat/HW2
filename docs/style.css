@@ -1,0 +1,15 @@
+#header{
+    background-color: blue;
+}
+
+#intro{
+    background-color: green;
+    float: left;
+    width: 30%;
+}
+
+#main{
+    background-color: red;
+    float: right;
+    width: 70%;
+}
