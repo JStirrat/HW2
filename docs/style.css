@@ -7,6 +7,7 @@
     background-color: green;
     float: left;
     width: 30%;
+    justify-content: center;
 }
 
 #main{
@@ -16,5 +17,6 @@
 }
 
 #profilepic{
-    height: 200px;
+    width: 200px;
+
 }
