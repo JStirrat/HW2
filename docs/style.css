@@ -8,6 +8,9 @@
     color: rgb(224, 206, 206);
     float: left;
     width: 30%;
+}
+
+div{
     justify-content: center;
 }
 
@@ -20,4 +23,8 @@
 #profilepic{
     width: 200px;
 
+}
+
+#summary{
+    padding-top: 20px;
 }
