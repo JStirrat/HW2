@@ -4,7 +4,8 @@
 }
 
 #intro{
-    background-color: green;
+    background-color: rgb(5, 50, 102);
+    color: rgb(224, 206, 206);
     float: left;
     width: 30%;
     justify-content: center;
