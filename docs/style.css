@@ -9,7 +9,7 @@
     color: rgb(224, 206, 206);
     float: left;
     width: 30%;
-    justify-content: center;
+    text-align: center;
 }
 
 #main {
@@ -24,21 +24,25 @@
 
 #profile {
     margin-bottom: 0px;
+    text-align: left;
 }
 
 #summary {
     margin-top: 0px;
     padding-top: 0px;
     border-top: 3px solid rgb(255, 2, 2);
+    text-align: left;
 }
 
 #core {
-    width: 70px;
+    width: fit-content;
     border-bottom: 1px dotted red;
+    text-align: left;
 }
 
 ul li {
     list-style-type: square;
+    text-align: left;
 }
 
 label {
