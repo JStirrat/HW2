@@ -120,7 +120,9 @@ nav a{
 
 #header img{
     position: relative;
-    height: 190px;
-    left: 10%;
+    height: auto;
+    width: auto;
+    left: 5%;
+    top: 50px;
     height: 50px;
 }
