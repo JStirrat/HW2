@@ -1,9 +1,10 @@
-#header{
+#header {
     background-color: blue;
     height: 100px;
+    justify-content: center;
 }
 
-#intro{
+#intro {
     background-color: rgb(5, 50, 102);
     color: rgb(224, 206, 206);
     float: left;
@@ -11,17 +12,59 @@
     justify-content: center;
 }
 
-#main{
+#main {
     background-color: red;
     float: right;
     width: 70%;
 }
 
-#profilepic{
+#profilepic {
     width: 200px;
-    padding-left: 10%;
 }
 
-#summary{
-    padding-top: 20px;
+#profile {
+    margin-bottom: 0px;
+}
+
+#summary {
+    margin-top: 0px;
+    padding-top: 0px;
+    border-top: 3px solid rgb(255, 2, 2);
+}
+
+#core {
+    width: 64px;
+    border-bottom: 1px dotted red;
+}
+
+ul li {
+    list-style-type: square;
+}
+
+label {
+    font-size: xx-large;
+    font-weight: 400;
+    color: red
+}
+
+#careertable{
+    text-align: center;
+    background-color: black;
+    padding: 1%;
+}
+
+.head {
+    background-color: rgb(167, 112, 102);
+}
+
+.even {
+    background-color: rgba(221, 109, 109, 0.781);
+}
+
+.odd {
+    background-color: brown;
+}
+
+nav{
+    text-align: right;
 }
