@@ -72,3 +72,9 @@ label {
 nav{
     text-align: right;
 }
+
+#educationtable{
+    text-align: center;
+    background-color: white;
+    padding: 1%;
+}
