@@ -1,5 +1,5 @@
 #header {
-    background-color: blue;
+    background-color: rgb(66, 64, 64);
     height: 100px;
     justify-content: center;
 }
@@ -54,7 +54,7 @@ label {
 
 #careertable{
     text-align: center;
-    background-color: black;
+    background-color: rgb(5, 50, 102);
     padding: 1%;
 }
 
@@ -73,11 +73,16 @@ label {
 nav{
     text-align: right;
     font-size: large;
+    
+}
+
+nav a{
+    color: aliceblue;
 }
 
 #educationtable{
     text-align: center;
-    background-color: black;
+    background-color: rgb(5, 50, 102);
     padding: 1%;
 }
 
@@ -111,4 +116,11 @@ nav{
     font-size: xx-large;
     font-weight: 400;
     color: blue;
+}
+
+#header img{
+    position: relative;
+    height: 190px;
+    left: 10%;
+    height: 50px;
 }
