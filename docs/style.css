@@ -72,6 +72,7 @@ label {
 
 nav{
     text-align: right;
+    font-size: large;
 }
 
 #educationtable{
@@ -82,14 +83,14 @@ nav{
 
 #edutable{
     position: relative;
-    left: 10%;
+    left: 30%;
     height: 200px;
     width: 400px;
 }
 
 #qualtable{
     position: relative;
-    left: 10%;
+    left: 30%;
     height: 200px;
     width: 400px;
 }
