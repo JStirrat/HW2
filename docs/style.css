@@ -16,6 +16,7 @@
     background-color: red;
     float: right;
     width: 70%;
+    text-align: center;
 }
 
 #profilepic {
@@ -77,4 +78,36 @@ nav{
     text-align: center;
     background-color: white;
     padding: 1%;
+}
+
+#edutable{
+    position: relative;
+    left: 10%;
+    height: 200px;
+    width: 400px;
+}
+
+#qualtable{
+    position: relative;
+    left: 10%;
+    height: 200px;
+    width: 400px;
+}
+
+#educationtable .even{
+    background-color: rgb(77, 111, 204);
+}
+
+#educationtable .odd{
+    background-color: rgb(21, 60, 168);
+}
+
+#educationtable .head{
+    background-color: rgb(135, 143, 167);
+}
+
+#educationtable caption{
+    font-size: xx-large;
+    font-weight: 400;
+    color: blue;
 }
