@@ -10,14 +10,16 @@
     float: left;
     width: 30%;
     text-align: center;
+    height: 2000px;
 }
 
-#intro h1{
+#intro h1 {
     font-size: xxx-large;
 }
 
 #main {
-    background-color: rgb(5, 50, 102);;
+    background-color: rgb(5, 50, 102);
+    height: 2000px;
     float: right;
     width: 70%;
     text-align: center;
@@ -46,9 +48,18 @@
     text-align: left;
 }
 
+#intro ul{
+    border-bottom: 3px solid rgb(255, 2, 2);
+}
+
 ul li {
     list-style-type: square;
     text-align: left;
+}
+
+ol li {
+    list-style-type: upper-roman;
+    text-align: center;
 }
 
 label {
@@ -57,7 +68,7 @@ label {
     color: red
 }
 
-#careertable{
+#careertable {
     text-align: center;
     background-color: rgb(5, 50, 102);
     padding: 1%;
@@ -75,68 +86,68 @@ label {
     background-color: brown;
 }
 
-nav{
+nav {
     text-align: right;
     font-size: large;
-    width:80%;
+    width: 80%;
     float: right;
 }
 
-nav a{
+nav a {
     color: rgb(224, 206, 206);
 }
 
-#educationtable{
+#educationtable {
     text-align: center;
     background-color: rgb(5, 50, 102);
     padding: 1%;
 }
 
-#edutable{
+#edutable {
     position: relative;
     left: 30%;
     height: 200px;
     width: 400px;
 }
 
-#qualtable{
+#qualtable {
     position: relative;
     left: 30%;
     height: 200px;
     width: 400px;
 }
 
-#educationtable .even{
+#educationtable .even {
     background-color: rgb(77, 111, 204);
 }
 
-#educationtable .odd{
+#educationtable .odd {
     background-color: rgb(21, 60, 168);
 }
 
-#educationtable .head{
+#educationtable .head {
     background-color: rgb(135, 143, 167);
 }
 
-#educationtable caption{
+#educationtable caption {
     font-size: xx-large;
     font-weight: 400;
     color: blue;
 }
 
-#header div{
+#header div {
     width: 20%;
     float: left;
 }
 
-#header img{
+#header img {
     border-radius: 50px;
     height: 70px;
     border: 3px solid rgb(255, 0, 0);
     margin-top: 20px;
 }
 
-#hobbies img{
+#hobbies img {
     border-radius: 50px;
     height: 150px;
     width: 300px;
@@ -150,6 +161,6 @@ nav a{
     text-align: center;
 }
 
-#hobbies a:hover{
+#imglink:hover {
     border-color: red;
 }
